@@ -5,7 +5,8 @@ public class ViewConsole {
         assert message==null;
     }
 
-    public String retrieveInputFromUser(){
+    public String retrieveInputFromUser(String message){
+        assert message==null;
 
         return "";
     }
