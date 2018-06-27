@@ -40,8 +40,8 @@ public class Coordinate {
 
     public void random() {
         Random random = new Random(System.currentTimeMillis());
-        coordinate.setRow(random.nextInt(Coordinate.DIMENSION));
-        coordinate.setColumn(random.nextInt(Coordinate.DIMENSION));
+        this.setRow(random.nextInt(Coordinate.DIMENSION));
+        this.setColumn(random.nextInt(Coordinate.DIMENSION));
     }
 
     public Direction direction(Coordinate coordinate){
